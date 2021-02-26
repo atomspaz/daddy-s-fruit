@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Bar Styles */
+
+/* Logo */
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  width: 80%;
+  /*   background: red; */
+  letter-spacing: 3px;
+  weight-font: bold;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
